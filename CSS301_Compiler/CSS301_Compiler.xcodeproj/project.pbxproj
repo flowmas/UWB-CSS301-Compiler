@@ -13,8 +13,8 @@
 		9E4657282441197500FFE720 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E4657272441197500FFE720 /* Assets.xcassets */; };
 		9E46572B2441197500FFE720 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E4657292441197500FFE720 /* Main.storyboard */; };
 		9E4657372441197500FFE720 /* CSS301_CompilerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E4657362441197500FFE720 /* CSS301_CompilerTests.swift */; };
-		9E4657422441534D00FFE720 /* CSS301MemoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9E4657412441534D00FFE720 /* CSS301MemoClassifier.mlmodel */; };
 		9E465744244A4EB900FFE720 /* ImageProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9E465743244A4EB900FFE720 /* ImageProcessor.swift */; };
+		9E724554244FC44F00C4E54A /* CSS301MemoClassifier.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 9E724553244FC44F00C4E54A /* CSS301MemoClassifier.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +39,8 @@
 		9E4657322441197500FFE720 /* CSS301_CompilerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CSS301_CompilerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E4657362441197500FFE720 /* CSS301_CompilerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CSS301_CompilerTests.swift; sourceTree = "<group>"; };
 		9E4657382441197500FFE720 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9E4657412441534D00FFE720 /* CSS301MemoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CSS301MemoClassifier.mlmodel; path = "../../../../Sam's ML Models/CSS301MemoClassifier.mlmodel"; sourceTree = "<group>"; };
 		9E465743244A4EB900FFE720 /* ImageProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageProcessor.swift; sourceTree = "<group>"; };
+		9E724553244FC44F00C4E54A /* CSS301MemoClassifier.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = CSS301MemoClassifier.mlmodel; path = ../../CSS301MemoClassifier.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +88,7 @@
 				9E4657292441197500FFE720 /* Main.storyboard */,
 				9E46572C2441197500FFE720 /* Info.plist */,
 				9E46572D2441197500FFE720 /* CSS301_Compiler.entitlements */,
-				9E4657412441534D00FFE720 /* CSS301MemoClassifier.mlmodel */,
+				9E724553244FC44F00C4E54A /* CSS301MemoClassifier.mlmodel */,
 				9E4657242441197100FFE720 /* CSS301_Compiler.xcdatamodeld */,
 				9E465743244A4EB900FFE720 /* ImageProcessor.swift */,
 			);
@@ -207,8 +207,8 @@
 				9E4657262441197100FFE720 /* CSS301_Compiler.xcdatamodeld in Sources */,
 				9E4657232441197100FFE720 /* ViewController.swift in Sources */,
 				9E465744244A4EB900FFE720 /* ImageProcessor.swift in Sources */,
-				9E4657422441534D00FFE720 /* CSS301MemoClassifier.mlmodel in Sources */,
 				9E4657212441197100FFE720 /* AppDelegate.swift in Sources */,
+				9E724554244FC44F00C4E54A /* CSS301MemoClassifier.mlmodel in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
